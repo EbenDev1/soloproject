@@ -1,0 +1,90 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+    
+    
+
+}
+#hero-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image:linear-gradient(200deg, black, rgba(0,0,0,0.22)), url(./Adobackground.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 100%;
+    color: white;  
+}
+
+#hero-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#bg-grey{
+    background-color: #1D3557;
+    padding: 5px 20px;
+    border-radius:10px; 
+    margin-bottom: 5px;
+}
+#bg-lggrey{
+    background-color: #457B9D;
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin-top: 6px;
+}
+.center-txt{
+    text-align: center;
+    margin-top: 39px;
+    margin-bottom: ;
+}
+.reshape{
+    height: 100px;
+    width: 99.35px;
+    border-radius: 100px;
+}
+.img-txt{
+    font-size: 16px;
+    font-weight: 700px;
+}
+.img-txt2{
+    font-size: 16px;
+    font-weight: 400px;
+}
+#three-activities{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 54px;
+
+}
+#activities{
+    background-color: #F1FAEE;
+    margin-top: 0px;
+    padding: 15px;
+}
+#card-sec{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    background-color: #A8DADC;
+    border-radius: 20px;
+    margin: 50px auto;
+    padding: 23px 13px;
+}
+#img-resizer{
+    width: 180px;
+    height: 248.67px;
+    padding-right: 7px;
+}
+
